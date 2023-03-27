@@ -1,0 +1,28 @@
+{
+  "name": "crudfazt",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene las practicas del curso CRUD con NODE y MONGO  de fazt.  https://www.youtube.com/watch?v=GVfAPWLkk0M&list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.0.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "npm-check-updates": "^16.8.0"
+  }
+}
