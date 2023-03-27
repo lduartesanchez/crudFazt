@@ -1,5 +1,8 @@
-const app = require('./server')
+require('dotenv').config();
 
-app.listen(3000, () =>{
-    console.log('Server listen on port 3000')
+const app = require('./server')
+require('./database')
+
+app.listen(app.get('port'), () =>{
+    console.log('Server listen on port', app.get('port'))
 })
