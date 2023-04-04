@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
+    "handlebars": "^4.5.0",
     "nodemon": "^2.0.22",
     "npm-check-updates": "^16.8.0"
   }
