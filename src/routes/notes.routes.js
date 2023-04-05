@@ -22,6 +22,7 @@ router.get('/notes', renderNotes)
 //Edit notes 
 
 router.get('/notes/edit/:id', renderEditForm)
+
 router.put('/notes/edit/:id', updateNote)
 
 // Delete note
